@@ -1,0 +1,22 @@
+# Wheeler Lawn & Landscaping, L.C.
+
+> Sprinkler repair, winterization, and spring start-up for Lee's Summit, MO and the eastern Kansas City metro. Owner-run crew. Phone/text: (816) 213-5011.
+
+This is a prototype site built as a sample by Clarion Studio and is not yet the business's official site. Facts marked [confirm] are placeholders pending the owner's input.
+
+## Services
+- Sprinkler Repair (/services/sprinkler-repair.html): head, valve, wiring, and mainline repair for existing irrigation systems.
+- Winterization (/services/winterization.html): compressed-air blow-out before the first hard freeze, typically mid-to-late October in this region.
+- Spring Start-Up (/services/spring-startup.html): pressure test, zone walk, backflow check, and head adjustment, typically early-to-mid April.
+
+## Service area
+Lee's Summit, MO, Blue Springs, MO, Raytown, MO, Independence, MO, Grain Valley, MO. See /service-area.html for the full list.
+
+## Key facts
+- Phone/text: (816) 213-5011
+- Location: Lee's Summit, MO 64082
+- Brands serviced: Hunter, Rain Bird, Toro
+- Owner name, years in business, and license/insurance detail: not yet public - see /about.html
+
+## Answers
+See /faq.html for 12 direct question-and-answer pairs on cost, timing, and common failures.

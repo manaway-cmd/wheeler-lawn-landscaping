@@ -1,0 +1,135 @@
+/* Wheeler Lawn & Landscaping — prototype site styles */
+:root{
+  --ink:#1c2521;
+  --ink-soft:#4b5750;
+  --paper:#ffffff;
+  --paper-soft:#f2f5f1;
+  --line:#dbe2dc;
+  --accent:#1f5c4a;
+  --accent-dark:#153f34;
+  --accent-soft:#e6efe9;
+  --sky:#2c6e8f;
+  --radius:10px;
+  --max:1120px;
+  --sp-1:8px;
+  --sp-2:16px;
+  --sp-3:24px;
+  --sp-4:32px;
+  --sp-5:48px;
+  --sp-6:64px;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0;
+  font-family:"Source Sans 3", Arial, Helvetica, sans-serif;
+  color:var(--ink);
+  background:var(--paper);
+  line-height:1.55;
+  padding-bottom:64px; /* room for sticky call bar on mobile */
+}
+h1,h2,h3{
+  font-family:"Inter", Arial, Helvetica, sans-serif;
+  font-weight:700;
+  line-height:1.2;
+  color:var(--ink);
+  margin:0 0 var(--sp-2);
+}
+h1{font-size:clamp(1.9rem,4.5vw,2.7rem)}
+h2{font-size:clamp(1.35rem,3vw,1.7rem);margin-top:var(--sp-5)}
+h3{font-size:1.15rem;margin-top:var(--sp-3)}
+p{margin:0 0 var(--sp-2)}
+a{color:var(--accent)}
+a:hover{color:var(--accent-dark)}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 var(--sp-3)}
+img{max-width:100%;display:block}
+
+/* header */
+.site-header{border-bottom:1px solid var(--line);background:var(--paper)}
+.site-header .wrap{display:flex;align-items:center;justify-content:space-between;padding-top:var(--sp-2);padding-bottom:var(--sp-2);gap:var(--sp-3);flex-wrap:wrap}
+.brand{display:flex;align-items:center;gap:10px;font-family:"Inter",sans-serif;font-weight:700;font-size:1.05rem;color:var(--ink);text-decoration:none}
+.brand svg{flex:none}
+nav.primary{display:flex;gap:var(--sp-3);flex-wrap:wrap;font-size:.95rem}
+nav.primary a{color:var(--ink-soft);text-decoration:none;font-weight:600}
+nav.primary a:hover{color:var(--accent)}
+.header-phone{display:flex;align-items:center;gap:8px;font-weight:700;color:var(--accent-dark);text-decoration:none;white-space:nowrap}
+.header-phone svg{flex:none}
+
+/* hero */
+.hero{background:var(--accent-soft);border-bottom:1px solid var(--line)}
+.hero .wrap{padding-top:var(--sp-6);padding-bottom:var(--sp-6);display:grid;grid-template-columns:1.1fr .9fr;gap:var(--sp-5);align-items:center}
+.hero .eyebrow{display:inline-block;font-size:.82rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--accent-dark);background:#fff;border:1px solid var(--accent);border-radius:999px;padding:4px 12px;margin-bottom:var(--sp-2)}
+.hero .lede{font-size:1.1rem;color:var(--ink-soft);max-width:46ch}
+.hero-cta{display:flex;gap:var(--sp-2);flex-wrap:wrap;margin-top:var(--sp-3)}
+.hero-art{display:flex;align-items:center;justify-content:center}
+.proof-line{margin-top:var(--sp-3);font-size:.95rem;color:var(--ink-soft);display:flex;align-items:center;gap:8px}
+
+/* buttons */
+.btn{display:inline-flex;align-items:center;gap:8px;font-weight:700;text-decoration:none;padding:12px 20px;border-radius:8px;font-size:1rem;border:2px solid var(--accent)}
+.btn-primary{background:var(--accent);color:#fff}
+.btn-primary:hover{background:var(--accent-dark);border-color:var(--accent-dark);color:#fff}
+.btn-secondary{background:transparent;color:var(--accent-dark)}
+.btn-secondary:hover{background:#fff}
+
+/* sections */
+section{padding:var(--sp-2) 0}
+.section-pad{padding:var(--sp-5) 0}
+.grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:var(--sp-3)}
+.grid-2{display:grid;grid-template-columns:1fr 1fr;gap:var(--sp-3)}
+.card{background:var(--paper-soft);border:1px solid var(--line);border-radius:var(--radius);padding:var(--sp-3)}
+.card h3{margin-top:0}
+.facts{display:grid;grid-template-columns:repeat(4,1fr);gap:var(--sp-2);text-align:center}
+.facts .fact strong{display:block;font-family:"Inter",sans-serif;font-size:1.5rem;color:var(--accent-dark)}
+.facts .fact span{font-size:.85rem;color:var(--ink-soft)}
+
+/* qa blocks */
+.qa{border-top:1px solid var(--line);padding:var(--sp-3) 0}
+.qa:first-of-type{border-top:none}
+.qa h2,.qa h3{margin-top:0}
+.qa .answer{color:var(--ink-soft)}
+
+/* review */
+.review{border-left:4px solid var(--accent);padding:var(--sp-2) var(--sp-3);background:var(--paper-soft);border-radius:0 var(--radius) var(--radius) 0}
+.review p{font-style:italic;margin-bottom:6px}
+.review cite{font-style:normal;font-size:.85rem;color:var(--ink-soft)}
+
+/* tables */
+table{width:100%;border-collapse:collapse;margin:var(--sp-2) 0}
+th,td{text-align:left;padding:10px 12px;border-bottom:1px solid var(--line)}
+th{font-family:"Inter",sans-serif;font-size:.85rem;text-transform:uppercase;letter-spacing:.03em;color:var(--ink-soft)}
+
+/* service area list */
+.area-list{display:grid;grid-template-columns:repeat(3,1fr);gap:8px 24px;list-style:none;margin:var(--sp-2) 0;padding:0}
+.area-list li{padding:8px 0;border-bottom:1px dashed var(--line)}
+
+/* placeholders */
+.tbd{background:#fff4d6;color:#6b4e00;padding:1px 6px;border-radius:4px;font-size:.92em}
+
+/* footer */
+footer.site-footer{background:var(--ink);color:#cfd8d1;margin-top:var(--sp-6)}
+footer.site-footer .wrap{padding:var(--sp-4) var(--sp-3)}
+footer.site-footer a{color:#fff}
+footer.site-footer .foot-grid{display:grid;grid-template-columns:2fr 1fr 1fr;gap:var(--sp-3);margin-bottom:var(--sp-3)}
+footer.site-footer small{color:#8fa098}
+
+/* sticky mobile call bar */
+.call-bar{position:fixed;left:0;right:0;bottom:0;display:none;background:var(--accent-dark);color:#fff;z-index:50;box-shadow:0 -2px 10px rgba(0,0,0,.15)}
+.call-bar .wrap{display:flex;padding:0;max-width:none}
+.call-bar a{flex:1;text-align:center;padding:14px 10px;color:#fff;text-decoration:none;font-weight:700;font-size:.95rem;display:flex;align-items:center;justify-content:center;gap:8px}
+.call-bar a.call{background:var(--accent)}
+.call-bar a.text{background:var(--accent-dark);border-left:1px solid rgba(255,255,255,.2)}
+
+@media (max-width:860px){
+  .hero .wrap{grid-template-columns:1fr}
+  .hero-art{order:-1;max-width:220px;margin:0 auto}
+  .grid-3{grid-template-columns:1fr}
+  .grid-2{grid-template-columns:1fr}
+  .facts{grid-template-columns:repeat(2,1fr)}
+  .area-list{grid-template-columns:repeat(2,1fr)}
+  footer.site-footer .foot-grid{grid-template-columns:1fr}
+  .call-bar{display:block}
+  body{padding-bottom:56px}
+}
+@media (max-width:480px){
+  .area-list{grid-template-columns:1fr}
+}
