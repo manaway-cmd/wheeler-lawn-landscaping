@@ -14,9 +14,12 @@ Lee's Summit, MO, Blue Springs, MO, Raytown, MO, Independence, MO, Grain Valley,
 
 ## Key facts
 - Phone/text: (816) 213-5011
-- Location: Lee's Summit, MO 64082
+- Location: Lee's Summit, MO 64064
 - Brands serviced: Hunter, Rain Bird, Toro
-- Owner name, years in business, and license/insurance detail: not yet public - see /about.html
+- In business since around 1999 (about 27 years), per public directories (Angi, HomeAdvisor) - not yet confirmed by the business directly
+- Rated 5.0 out of 5 across 13 reviews on Angi and HomeAdvisor
+- Missouri has no state-level irrigation contractor license requirement (unlike Texas); work here is handled through local permitting
+- Owner name and license/insurance detail: not yet public - see /about.html
 
 ## Answers
-See /faq.html for 12 direct question-and-answer pairs on cost, timing, and common failures.
+See /faq.html for 15 direct question-and-answer pairs on cost, timing, licensing, and common failures.
